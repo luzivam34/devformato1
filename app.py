@@ -6,5 +6,9 @@ app = Flask(__name__)
 def Homepage():
     return render_template("index.html")
 
+@app.route("/python")
+def python():
+    return render_template("python.html")
+
 if __name__== "__main__":
     app.run(debug=True)

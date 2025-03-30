@@ -3,3 +3,20 @@
     padding: 5px;
     border: 1px solid black;
 }
+header{
+    
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+main{
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
