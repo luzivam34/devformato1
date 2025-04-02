@@ -12,6 +12,9 @@ header{
 main{
     display: flex;
 }
+b{
+    border: 0;
+}
 li {
     list-style-type: none;
 }
